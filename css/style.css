@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
+/* common part style */
 .body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -7,10 +8,6 @@
 
 .margin-bottom{
     margin-bottom: 100px;
-}
-
-.navbar-height{
-    height: 80px;
 }
 
 .image-slider{
@@ -22,6 +19,12 @@
     background-blend-mode: overlay;
 }
 
+/* navbar height style */
+.navbar-height{
+    height: 80px;
+}
+
+/* top margin of carousel */
 .image-slider-margin{
     margin-top: 340px;
 }
