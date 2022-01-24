@@ -12,11 +12,15 @@
 
     <!-- css stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/9519e2ec4e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- header part start -->
     <header>
-        <!-- navbar part -->
+        <!-- navbar part start-->
         <nav class="navbar navbar-expand-lg navbar-light navbar-height">
             <div class="container">
                 <a class="navbar-brand fw-bold" href="#">Tremendous Convention Center</a>
@@ -35,8 +39,9 @@
                 </div>
             </div>
         </nav>
+        <!-- navbar part end -->
 
-        <!-- carousel part -->
+        <!-- carousel part start -->
         <section class="margin-bottom">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -80,7 +85,7 @@
                             <div class="row">
                                 <div class="col-12 col-md-12 col-lg-12">
                                     <div
-                                        class="d-flex flex-column align-items-center justify-content-center image-slider-margin">
+                                        class="d-flex flex-column align-items-center justify-content-center image-slider-margin mb-5">
                                         <h1 class="text-center fw-bold">
                                             The perfect venue for your next event
                                         </h1>
@@ -104,7 +109,7 @@
                             <div class="row">
                                 <div class="col-12 col-md-12 col-lg-12">
                                     <div
-                                        class="d-flex flex-column align-items-center justify-content-center image-slider-margin">
+                                        class="d-flex flex-column align-items-center justify-content-center image-slider-margin mb-5">
                                         <h1 class="text-center fw-bold">
                                             The perfect venue for your next event
                                         </h1>
@@ -127,7 +132,7 @@
                             <div class="row">
                                 <div class="col-12 col-md-12 col-lg-12">
                                     <div
-                                        class="d-flex flex-column align-items-center justify-content-center image-slider-margin">
+                                        class="d-flex flex-column align-items-center justify-content-center image-slider-margin mb-5">
                                         <h1 class="text-center fw-bold">
                                             The perfect venue for your next event
                                         </h1>
@@ -157,20 +162,28 @@
                 </button>
             </div>
         </section>
+        <!-- carousel part end -->
     </header>
+    <!-- header part end -->
 
+    <!-- main part start -->
     <main>
-        <!-- Toast -->
-        <div class="toast show align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-                <img src="./images/toast.jpg" width="20px" class="rounded me-2" alt="..." />
-                <strong class="me-auto">Tremendous Convention Center</strong>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        <!-- Toast part start -->
+        <section>
+            <div class="container">
+                <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex align-items-center justify-content-center border-start border-primary border-5">
+                        <i class="fas fa-gift ms-auto text-primary"></i>
+                        <div class="toast-body fw-bold">30% off on next booking</div>
+                        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                            aria-label="Close"></button>
+                    </div>
+                </div>
             </div>
-            <div class="toast-body">Welcome to Tremendous Convention Center!</div>
-        </div>
+        </section>
+        <!-- toast part end -->
 
-        <!-- our packages -->
+        <!-- package part start -->
         <section class="margin-bottom">
             <h1 class="text-center fw-bold margin-bottom">Our Packages</h1>
             <div class="container">
@@ -298,10 +311,10 @@
                         <!-- Package 3 -->
                         <div class="col">
                             <div class="card rounded-3 border-0 mt-5 mb-4 mb-lg-0 mt-lg-0">
-                                <div class="container card-body package-four position-relative">
+                                <div class="container card-body package-three position-relative">
                                     <!-- badge start -->
                                     <span
-                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                        class="position-absolute top-0  start-100 translate-middle badge rounded-pill bg-danger">
                                         Hot
                                         <span class="visually-hidden">Hot Offer</span>
                                     </span>
@@ -421,9 +434,10 @@
                     </div>
                 </div>
         </section>
+        <!-- package part end -->
 
 
-        <!-- FAQ -->
+        <!-- FAQ part start -->
         <section class="faq-height mb-5">
             <div class="container">
                 <h1 class="text-center fw-bold mb-5">Frequently Asked Questions</h1>
@@ -510,7 +524,9 @@
                 </div>
             </div>
         </section>
+        <!-- FAQ part end -->
 
+        <!-- feedback part start -->
         <section class="margin-bottom">
             <div class="container">
                 <h1 class="text-center fw-bold mb-5">We'd Love to Hear From You </h1>
@@ -540,8 +556,11 @@
                 </div>
             </div>
         </section>
+        <!-- feedback part end -->
     </main>
+    <!-- main part end -->
 
+    <!-- footer part start -->
     <footer style="background-color: #0B0D17; height: 220px;">
         <div class="container">
             <div class="row">
@@ -554,7 +573,7 @@
                     <div class="d-flex flex-column justify-content-center align-items-center my-lg-5">
                         <h4 class="ms-lg-5 text-white fs-5">Get The App</h4>
                         <div class="d-flex flex-column gap-2 ms-lg-5">
-                            <a target="_blank" href="https://www.apple.com/airpods/">
+                            <a target="_blank" href="https://apps.apple.com/us/app/clash-royale/id1053012308">
                                 <img src="./images/app-store.png" width="135" alt="">
                             </a>
                             <a target="_blank" href=" https://play.google.com/store/apps/details?id=com.facebook.lite">
@@ -566,6 +585,7 @@
             </div>
         </div>
     </footer>
+    <!-- footer part end -->
 
     <!-- bootstrap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -5,35 +5,33 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-
 .margin-bottom{
     margin-bottom: 100px;
 }
 
+/* carousel part style */
 .image-slider{
     min-height: calc(100vh - 80px);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(0, 0, 0, 0.589);
     background-blend-mode: overlay;
 }
-
-/* top margin of carousel */
 .image-slider-margin{
     margin-top: 250px;
 }
 
-/* navbar height style */
+/* navbar part style */
 .navbar-height{
     height: 80px;
 }
 
+/* package part style */
 .package-choose-plan-btn{
     background-color: rgba(244, 150, 210, 0.233);;
 }
-
-.package-four{
+.package-three{
     background-color: #5A20CB;
     margin-bottom: 60px;
     transform: scale(1.09, 1.25);
@@ -44,10 +42,10 @@
     width: 80%;
 }
 
+/* faq part style */
 .faq-height{
     min-height: 100vh;
 }
-
 .faq-border{
     border: 1px solid #D5E5FB;
 }
