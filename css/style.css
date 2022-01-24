@@ -7,7 +7,7 @@
 }
 
 .margin-bottom{
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 .image-slider{
@@ -19,12 +19,16 @@
     background-blend-mode: overlay;
 }
 
+/* top margin of carousel */
+.image-slider-margin{
+    margin-top: 340px;
+}
+
 /* navbar height style */
 .navbar-height{
     height: 80px;
 }
 
-/* top margin of carousel */
-.image-slider-margin{
-    margin-top: 340px;
+.package-choose-plan-btn{
+    background-color: rgba(244, 150, 210, 0.233);;
 }
