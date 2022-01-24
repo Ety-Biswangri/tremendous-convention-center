@@ -43,6 +43,10 @@
     width: 80%;
 }
 
+.hot-badge{
+        transform: translate(-170%,-50%)!important;
+}
+
 /* faq part style */
 .faq-height{
     min-height: 100vh;
