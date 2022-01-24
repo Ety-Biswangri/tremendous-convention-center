@@ -7,7 +7,7 @@
 }
 
 .margin-bottom{
-    margin-bottom: 90px;
+    margin-bottom: 100px;
 }
 
 .image-slider{
@@ -31,4 +31,15 @@
 
 .package-choose-plan-btn{
     background-color: rgba(244, 150, 210, 0.233);;
+}
+
+.package-four{
+    background-color: #5A20CB;
+    margin-bottom: 60px;
+    transform: scale(1.09, 1.25);
+    padding-bottom: 30px;
+    color: white;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+    width: 90%;
 }
