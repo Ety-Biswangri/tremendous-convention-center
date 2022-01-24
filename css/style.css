@@ -3,7 +3,8 @@
 /* common part style */
 .body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 .margin-bottom{
     margin-bottom: 100px;
@@ -40,9 +41,8 @@
     color: white;
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
     border-radius: 26px;
-    width: 80%;
+    width: 90%;
 }
-
 .hot-badge{
         transform: translate(-170%,-50%)!important;
 }
